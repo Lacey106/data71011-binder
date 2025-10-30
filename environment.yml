@@ -1,0 +1,16 @@
+name: binder-env
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.10            
+  - pip
+  - jupyterlab
+  - notebook
+  - matplotlib=3.7.*       
+  - numpy=1.25.*
+  - pandas=2.2.*
+  - seaborn
+  - pip:
+    - ipywidgets
+    - voila
