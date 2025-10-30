@@ -1,16 +1,10 @@
-name: binder-env
+name: data71011
 channels:
-  - defaults
   - conda-forge
 dependencies:
-  - python=3.10            
-  - pip
-  - jupyterlab
-  - notebook
-  - matplotlib=3.7.*       
-  - numpy=1.25.*
-  - pandas=2.2.*
-  - seaborn
-  - pip:
-    - ipywidgets
-    - voila
+  - python=3.10
+  - numpy=1.24.3
+  - matplotlib=3.7.1
+  - pandas=2.0.3
+  - jupyter=1.0.0
+  - jupyterlab=4.0.0
